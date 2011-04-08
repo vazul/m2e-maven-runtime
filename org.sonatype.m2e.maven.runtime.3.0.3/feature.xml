@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.sonatype.m2e.maven.runtime.3.0.3"
+      label="Embedded Maven Runtime 3.0.3"
+      version="0.13.0.qualifier"
+      provider-name="SONATYPE">
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright (c) 2007-2011 Sonatype, Inc. All rights reserved.
+
+This program and the accompanying materials are made available under the terms of the Eclipse Public License Version 1.0,
+which accompanies this distribution and is available at http://www.eclipse.org/legal/epl-v10.html.
+   </copyright>
+
+   <requires>
+      <import feature="org.eclipse.m2e.feature" version="[0.13.0,0.14.0)" match="versionRange" patch="true"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.m2e.maven.runtime"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>
