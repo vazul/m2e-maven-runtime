@@ -118,7 +118,7 @@ Bundle-ClassPath: jars/maven-embedder-3.0.3.jar,jars/maven-settings-3.
  -util-1.11.jar,jars/wagon-provider-api-1.0-beta-6.jar,jars/aether-imp
  l-1.11.jar,jars/aether-connector-asynchttpclient-1.11.jar,jars/wagon-
  ahc-1.2.0.jar
-Bundle-Version: 0.13.0.qualifier
+Bundle-Version: 0.13.1.qualifier
 Bundle-Name: Embedded Maven Runtime Bundle
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: org.eclipse.m2e.maven.runtime;singleton:=true
