@@ -19,7 +19,7 @@
 
   <groupId>m2e-maven-runtime-3.0.3</groupId>
   <artifactId>m2e-maven-runtime-3.0.3-parent</artifactId>
-  <version>0.13.1-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
@@ -107,7 +107,7 @@
     </repository>
     <repository>
       <id>heliosm2e</id>
-      <url>https://repository.sonatype.org/content/repositories/forge-sites/m2e/0.13.0/N/0.13.0.201104051206/</url>
+      <url>https://repository.sonatype.org/content/repositories/forge-sites/m2e/1.0.0/N/LATEST/</url>
       <layout>p2</layout>
     </repository>
   </repositories>

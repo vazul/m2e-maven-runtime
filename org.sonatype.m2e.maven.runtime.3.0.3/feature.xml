@@ -2,7 +2,7 @@
 <feature
       id="org.sonatype.m2e.maven.runtime.3.0.3"
       label="Embedded Maven Runtime 3.0.3"
-      version="0.13.1.qualifier"
+      version="1.0.1.qualifier"
       provider-name="SONATYPE">
 
    <copyright url="http://www.example.com/copyright">
@@ -13,7 +13,7 @@ which accompanies this distribution and is available at http://www.eclipse.org/l
    </copyright>
 
    <requires>
-      <import feature="org.eclipse.m2e.feature" version="[0.13.0,0.14.0)" match="versionRange" patch="true"/>
+      <import feature="org.eclipse.m2e.feature" version="[1.0.0,1.1.0)" match="versionRange" patch="true"/>
    </requires>
 
    <plugin
