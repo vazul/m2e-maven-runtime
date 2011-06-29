@@ -24,17 +24,10 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.sonatype.tycho</groupId>
-        <artifactId>maven-osgi-packaging-plugin</artifactId>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-packaging-plugin</artifactId>
         <configuration>
           <deployableFeature>true</deployableFeature>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.sonatype.tycho</groupId>
-        <artifactId>tycho-p2-plugin</artifactId>
-        <configuration>
-          <compressRepository>false</compressRepository>
         </configuration>
       </plugin>
 
