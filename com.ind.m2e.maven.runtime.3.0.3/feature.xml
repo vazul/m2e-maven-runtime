@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.ind.m2e.maven.runtime.3.0.3"
+      label="Embedded Maven Runtime 3.0.3 with Aether 1.13"
+      version="1.0.113.qualifier"
+      provider-name="IND Ltd.">
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.m2e.feature" version="1.0.100.20110804-1717" patch="true"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.m2e.maven.runtime"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+<!--
+   <plugin
+         id="com.ning.async-http-client"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.jboss.netty"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>-->
+
+</feature>

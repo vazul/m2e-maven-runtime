@@ -114,11 +114,11 @@ Bundle-ClassPath: jars/maven-embedder-3.0.3.jar,jars/maven-settings-3.
  nders-2.1.1.jar,jars/guice-plexus-scanners-2.1.1.jar,jars/plexus-clas
  sworlds-2.4.jar,jars/plexus-utils-2.0.6.jar,jars/sisu-guice-2.9.4-no_
  aop.jar,jars/plexus-build-api-0.0.7.jar,jars/aether-connector-wagon-1
- .11.jar,jars/aether-api-1.11.jar,jars/aether-spi-1.11.jar,jars/aether
- -util-1.11.jar,jars/wagon-provider-api-1.0-beta-6.jar,jars/aether-imp
- l-1.11.jar,jars/aether-connector-asynchttpclient-1.11.jar,jars/wagon-
+ .13.jar,jars/aether-api-1.13.jar,jars/aether-spi-1.13.jar,jars/aether
+ -util-1.13.jar,jars/wagon-provider-api-1.0-beta-6.jar,jars/aether-imp
+ l-1.13.jar,jars/aether-connector-asynchttpclient-1.13.jar,jars/wagon-
  ahc-1.2.0.jar
-Bundle-Version: 1.0.1.qualifier
+Bundle-Version: 1.0.113.qualifier
 Bundle-Name: Embedded Maven Runtime Bundle
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: org.eclipse.m2e.maven.runtime;singleton:=true

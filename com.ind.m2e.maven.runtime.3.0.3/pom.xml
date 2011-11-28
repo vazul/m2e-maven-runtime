@@ -16,7 +16,7 @@
      <version>1.0.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>org.sonatype.m2e.maven.runtime.3.0.3</artifactId>
+  <artifactId>com.ind.m2e.maven.runtime.3.0.3</artifactId>
   <packaging>eclipse-feature</packaging>
 
   <name>Embedded Maven Runtime 3.0.3</name>
