@@ -4,7 +4,15 @@
       label="Embedded Maven Runtime 3.0.3 with Aether 1.13"
       version="1.0.113.qualifier"
       provider-name="IND Ltd.">
-
+      
+   <description>
+      Embedded Maven Runtime 3.0.3 with Aether 1.13
+This is a patched maven 3.0.3 runtime, which includes aether 1.13.
+This solves a problem with dependency resolution. See here: http://jira.codehaus.org/browse/MNG-5136
+As m2e uses always the embedded maven runtime for dependency resolution, it is highly advised to install this runtime.
+If you have already installed Embedded Maven Runtime 3.0.3 from Sonatype, you have to uninstall it before installing this patch.
+   </description>
+   
    <copyright>
       %copyright
    </copyright>
